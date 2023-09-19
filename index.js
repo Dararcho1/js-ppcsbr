@@ -1,6 +1,8 @@
 // Import stylesheets
 import './style.css';
-
+function Prevent(e){
+    e.preventDefault()
+}
 // Write Javascript code!
 document.addEventListener('DOMContentLoaded', function () {
   const loginForm = document.getElementById('login-form');
