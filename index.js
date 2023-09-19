@@ -6,7 +6,8 @@ function Prevent(e){
 // Write Javascript code!
 document.addEventListener('DOMContentLoaded', function () {
   const loginForm = document.getElementById('login-form');
-
+  const btn = document.getElementById('btn')
+    btn.addEventListener("change", e=>{e.preventDefault()})
   loginForm.addEventListener('submit', function (e) {
       e.preventDefault();
 
